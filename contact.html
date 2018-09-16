@@ -8,10 +8,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Halant|Nunito+Sans" rel="stylesheet">
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark serif">
         <a class="navbar-brand" href="#">Melissa Nelson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,24 +54,37 @@
                 <div class="row mainInfo">
                     <div class="col-md-12">
 
-                        <form>
+                        <form action="mailto:melissa.nelson13@yahoo.com" method="post" enctype="text/plain">
                             <div class="form-group">
                                 <label for="exampleInputName">Name:</label>
-                                <input type="text" class="form-control" id="exampleInputName" placeholder="John Smith">
+                                <input type="text" name="Name" class="form-control" id="exampleInputName" placeholder="John Smith">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+                                <label for="exampleInputEmail1">Email address:</label>
+                                <input type="email" name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
                                 <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputMesage4">Message:</label>
-                                <input type="text" class="form-control" id="exampleInputMessage" placeholder="">
+                                <textarea name="Message" class="form-control" rows="5" id="exampleInputMessage" placeholder=""></textarea>
                             </div>
 
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" value="send" class="btn btn-primary">Submit</button>
                         </form>
     
+                    </div>
+
+                </div>
+
+                <div class="row mainInfo2">
+                    <div class="col-md-4">
+                        <h6>You can also contact me on:</h6>
+                    </div>
+                    <div class="col-md-4">
+                        <h6><a href="https://www.linkedin.com/in/melissa-nelson-855500ba/" target="_blank">LinkedIn</a></h6>
+                    </div>
+                    <div class="col-md-4">
+                        <h6><a href="https://github.com/mnelson13" target="_blank">GitHub</a></h6>
                     </div>
                 </div>
 
