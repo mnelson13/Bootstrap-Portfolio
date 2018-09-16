@@ -44,7 +44,7 @@ p {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.mainInfo p:last-child {
+.bio p:last-child {
     border-style: solid;
     border-width: 0 0 5px 0;
     border-color: #dddddd;
